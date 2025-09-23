@@ -1,0 +1,23 @@
+{
+  "name": "@gsos/api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "echo \"(lint placeholder)\"",
+    "start": "node dist/local-server.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.637.0",
+    "@aws-sdk/lib-dynamodb": "^3.637.0",
+    "@aws-lambda-powertools/logger": "^2.17.0",
+    "@aws-lambda-powertools/tracer": "^2.17.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.136",
+    "@types/node": "^20.12.12",
+    "typescript": "^5.6.2"
+  }
+}

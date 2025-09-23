@@ -1,0 +1,28 @@
+{
+  "name": "gsos",
+  "private": true,
+  "packageManager": "pnpm@9.7.0",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "format": "prettier -w .",
+    "infra:synth": "pnpm -C infra/cdk synth",
+    "infra:deploy": "pnpm -C infra/cdk deploy",
+    "infra:destroy": "pnpm -C infra/cdk destroy"
+  },
+  "devDependencies": {
+    "turbo": "^2.1.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.2"
+  },
+  "workspaces": [
+    "apps/*",
+    "services/*",
+    "infra/*",
+    "packages/*",
+    "integrations/*"
+  ]
+}
