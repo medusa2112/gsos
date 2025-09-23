@@ -4,8 +4,13 @@ import { handler as health } from './handlers/health.js';
 const server = http.createServer(async (req, res) => {
   if (req.url === '/health') {
     const out = await health({} as any, {} as any, () => {});
-    res.writeHead(out.statusCode || 200, out.headers as any);
-    res.end(out.body);
+    if (out && typeof out === 'object' && 'statusCode' in out) {
+      res.writeHead(out.statusCode || 200, out.headers as any);
+      res.end(out.body);
+    } else {
+      res.writeHead(200, { 'content-type': 'application/json' });
+      res.end(JSON.stringify({ ok: true, service: 'api', ts: Date.now() }));
+    }
     return;
   }
   res.writeHead(404);

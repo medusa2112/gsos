@@ -1,0 +1,5 @@
+
+
+> @gsos/api@ build /Users/dominicnel/gsos/services/api
+> tsc -p tsconfig.json
+

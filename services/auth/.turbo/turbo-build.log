@@ -1,0 +1,5 @@
+
+
+> @gsos/auth@ build /Users/dominicnel/gsos/services/auth
+> tsc -p tsconfig.json
+

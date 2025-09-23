@@ -1,0 +1,5 @@
+
+
+> @gsos/infra-cdk@ build /Users/dominicnel/gsos/infra/cdk
+> tsc -p tsconfig.json
+
