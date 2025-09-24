@@ -1,0 +1,29 @@
+{
+  "name": "@gsos/e2e-tests",
+  "version": "1.0.0",
+  "description": "End-to-end smoke tests for GSOS School Management System",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:admissions": "playwright test tests/admissions.spec.ts",
+    "test:students": "playwright test tests/students.spec.ts",
+    "test:attendance": "playwright test tests/attendance.spec.ts",
+    "test:finance": "playwright test tests/finance.spec.ts",
+    "test:auth": "playwright test tests/auth.spec.ts",
+    "install-browsers": "playwright install",
+    "install-deps": "playwright install-deps"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.55.1",
+    "dotenv": "^16.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.17",
+    "typescript": "^5.9.2"
+  }
+}

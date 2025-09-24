@@ -1147,7 +1147,7 @@ async function handlePaymentFailure(paymentIntent) {
 
 // Health check
 async function health() {
-  return createResponse(200, { status: 'healthy', timestamp: new Date().toISOString() });
+  return createResponse(200, { ok: true, ts: Date.now() });
 }
 
 // Create server

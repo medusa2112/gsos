@@ -1,12 +1,14 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, lazy, Suspense } from 'react';
 import { Button } from '@gsos/ui';
-import { StudentInfoStep } from './components/StudentInfoStep';
-import { GuardianInfoStep } from './components/GuardianInfoStep';
-import { PreviousSchoolStep } from './components/PreviousSchoolStep';
-import { DocumentsStep } from './components/DocumentsStep';
-import { ReviewStep } from './components/ReviewStep';
+
+// Lazy load heavy form components
+const StudentInfoStep = lazy(() => import('./components/StudentInfoStep').then(module => ({ default: module.StudentInfoStep })));
+const GuardianInfoStep = lazy(() => import('./components/GuardianInfoStep').then(module => ({ default: module.GuardianInfoStep })));
+const PreviousSchoolStep = lazy(() => import('./components/PreviousSchoolStep').then(module => ({ default: module.PreviousSchoolStep })));
+const DocumentsStep = lazy(() => import('./components/DocumentsStep').then(module => ({ default: module.DocumentsStep })));
+const ReviewStep = lazy(() => import('./components/ReviewStep').then(module => ({ default: module.ReviewStep })));
 
 export interface AdmissionFormData {
   // Student Information
@@ -278,15 +280,31 @@ export default function AdmissionsPage() {
 
         {/* Form Content */}
         <div className="rounded-lg bg-white p-6 shadow-sm">
-          <CurrentStepComponent
-            data={formData}
-            updateData={updateFormData}
-            onNext={nextStep}
-            onPrev={prevStep}
-            onSubmit={submitApplication}
-            isFirstStep={currentStep === 0}
-            isLastStep={currentStep === STEPS.length - 1}
-          />
+          <Suspense fallback={
+            <div className="flex items-center justify-center py-12">
+              <div 
+                className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"
+                aria-hidden="true"
+              ></div>
+              <span 
+                className="ml-3 text-gray-600"
+                aria-live="polite"
+                aria-label="Loading admission form"
+              >
+                Loading form...
+              </span>
+            </div>
+          }>
+            <CurrentStepComponent
+              data={formData}
+              updateData={updateFormData}
+              onNext={nextStep}
+              onPrev={prevStep}
+              onSubmit={submitApplication}
+              isFirstStep={currentStep === 0}
+              isLastStep={currentStep === STEPS.length - 1}
+            />
+          </Suspense>
         </div>
 
         {/* Navigation */}

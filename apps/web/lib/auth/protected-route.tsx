@@ -4,7 +4,6 @@ import React from 'react';
 import { useRouter } from 'next/navigation';
 import { useAuth } from './auth-context';
 import { ProtectedRouteProps, UserRole } from '@gsos/types/auth';
-import { hasPermission, canAccessRoute } from '@gsos/utils/auth';
 
 interface LoadingSpinnerProps {
   size?: 'sm' | 'md' | 'lg';
@@ -67,11 +66,9 @@ function Unauthorized({ message, onRetry }: UnauthorizedProps) {
 
 export function ProtectedRoute({ 
   children, 
-  requiredRoles, 
-  requiredPermissions,
+  allowedRoles, 
   fallback,
-  redirectTo = '/auth/signin',
-  showUnauthorized = true 
+  redirectTo = '/auth/signin'
 }: ProtectedRouteProps) {
   const { session, loading, refreshSession } = useAuth();
   const router = useRouter();

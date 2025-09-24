@@ -1,4 +1,4 @@
-import { Duration, Stack, StackProps } from 'aws-cdk-lib';
+import { Duration, Stack, StackProps, CfnOutput } from 'aws-cdk-lib';
 import { Construct } from 'constructs';
 import { 
   UserPool, 
@@ -166,6 +166,13 @@ export class AuthStack extends Stack {
       idTokenValidity: Duration.hours(1),
       enableTokenRevocation: true,
       supportedIdentityProviders: [UserPoolClientIdentityProvider.COGNITO]
+    });
+
+    // Stack outputs
+    new CfnOutput(this, 'UserPoolId', {
+      value: this.userPool.userPoolId,
+      description: 'GSOS Cognito User Pool ID',
+      exportName: 'GSOS-UserPoolId'
     });
   }
 }

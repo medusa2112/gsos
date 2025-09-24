@@ -41,7 +41,7 @@ export default function StudentsPage() {
     }
   };
 
-  const filteredStudents = students.filter(student => {
+  const filteredStudents = (Array.isArray(students) ? students : []).filter(student => {
     const matchesSearch = student.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
                          student.email.toLowerCase().includes(searchTerm.toLowerCase());
     const matchesYear = filterYear === 'all' || student.year === filterYear;

@@ -1,7 +1,8 @@
-import { Stack, StackProps, RemovalPolicy } from 'aws-cdk-lib';
+import { Stack, StackProps, RemovalPolicy, CfnOutput } from 'aws-cdk-lib';
 import { Construct } from 'constructs';
-import { Table, AttributeType, BillingMode, ProjectionType } from 'aws-cdk-lib/aws-dynamodb';
+import { Table, AttributeType, BillingMode, ProjectionType, TableEncryption } from 'aws-cdk-lib/aws-dynamodb';
 import { Bucket, BlockPublicAccess, BucketEncryption } from 'aws-cdk-lib/aws-s3';
+import { Key } from 'aws-cdk-lib/aws-kms';
 
 export class DataStack extends Stack {
   readonly studentsTable: Table;
@@ -16,11 +17,21 @@ export class DataStack extends Stack {
   constructor(scope: Construct, id: string, props?: StackProps) {
     super(scope, id, props);
 
+    // KMS Key for DynamoDB encryption
+    const dynamoDbKey = new Key(this, 'DynamoDbEncryptionKey', {
+      description: 'KMS key for GSOS DynamoDB table encryption',
+      enableKeyRotation: true,
+      removalPolicy: RemovalPolicy.DESTROY, // Use RETAIN in production
+    });
+
     // Students Table: pk: schoolId#studentId, sk: type#ts
     this.studentsTable = new Table(this, 'StudentsTable', {
       partitionKey: { name: 'pk', type: AttributeType.STRING }, // schoolId#studentId
       sortKey: { name: 'sk', type: AttributeType.STRING }, // type#timestamp
       billingMode: BillingMode.PAY_PER_REQUEST,
+      encryption: TableEncryption.CUSTOMER_MANAGED,
+      encryptionKey: dynamoDbKey,
+      pointInTimeRecovery: true,
       removalPolicy: RemovalPolicy.DESTROY
     });
 
@@ -45,6 +56,9 @@ export class DataStack extends Stack {
       partitionKey: { name: 'pk', type: AttributeType.STRING }, // schoolId#guardianId
       sortKey: { name: 'sk', type: AttributeType.STRING }, // type#timestamp
       billingMode: BillingMode.PAY_PER_REQUEST,
+      encryption: TableEncryption.CUSTOMER_MANAGED,
+      encryptionKey: dynamoDbKey,
+      pointInTimeRecovery: true,
       removalPolicy: RemovalPolicy.DESTROY
     });
 
@@ -69,6 +83,9 @@ export class DataStack extends Stack {
       partitionKey: { name: 'pk', type: AttributeType.STRING }, // schoolId#date (YYYY-MM-DD)
       sortKey: { name: 'sk', type: AttributeType.STRING }, // studentId
       billingMode: BillingMode.PAY_PER_REQUEST,
+      encryption: TableEncryption.CUSTOMER_MANAGED,
+      encryptionKey: dynamoDbKey,
+      pointInTimeRecovery: true,
       removalPolicy: RemovalPolicy.DESTROY
     });
 
@@ -93,6 +110,9 @@ export class DataStack extends Stack {
       partitionKey: { name: 'pk', type: AttributeType.STRING }, // schoolId#studentId
       sortKey: { name: 'sk', type: AttributeType.STRING }, // timestamp (ISO string)
       billingMode: BillingMode.PAY_PER_REQUEST,
+      encryption: TableEncryption.CUSTOMER_MANAGED,
+      encryptionKey: dynamoDbKey,
+      pointInTimeRecovery: true,
       removalPolicy: RemovalPolicy.DESTROY
     });
 
@@ -125,6 +145,9 @@ export class DataStack extends Stack {
       partitionKey: { name: 'pk', type: AttributeType.STRING }, // schoolId#applicationId
       sortKey: { name: 'sk', type: AttributeType.STRING }, // timestamp
       billingMode: BillingMode.PAY_PER_REQUEST,
+      encryption: TableEncryption.CUSTOMER_MANAGED,
+      encryptionKey: dynamoDbKey,
+      pointInTimeRecovery: true,
       removalPolicy: RemovalPolicy.DESTROY
     });
 
@@ -157,6 +180,9 @@ export class DataStack extends Stack {
       partitionKey: { name: 'pk', type: AttributeType.STRING }, // schoolId#invoiceId
       sortKey: { name: 'sk', type: AttributeType.STRING }, // studentId
       billingMode: BillingMode.PAY_PER_REQUEST,
+      encryption: TableEncryption.CUSTOMER_MANAGED,
+      encryptionKey: dynamoDbKey,
+      pointInTimeRecovery: true,
       removalPolicy: RemovalPolicy.DESTROY
     });
 
@@ -189,6 +215,9 @@ export class DataStack extends Stack {
       partitionKey: { name: 'pk', type: AttributeType.STRING }, // schoolId#paymentId
       sortKey: { name: 'sk', type: AttributeType.STRING }, // invoiceId
       billingMode: BillingMode.PAY_PER_REQUEST,
+      encryption: TableEncryption.CUSTOMER_MANAGED,
+      encryptionKey: dynamoDbKey,
+      pointInTimeRecovery: true,
       removalPolicy: RemovalPolicy.DESTROY
     });
 
@@ -216,11 +245,19 @@ export class DataStack extends Stack {
       projectionType: ProjectionType.ALL
     });
 
+    // KMS Key for S3 encryption
+    const s3Key = new Key(this, 'S3EncryptionKey', {
+      description: 'KMS key for GSOS S3 bucket encryption',
+      enableKeyRotation: true,
+      removalPolicy: RemovalPolicy.DESTROY, // Use RETAIN in production
+    });
+
     // S3 Bucket for Documents (gsos-docs)
     this.documentsS3Bucket = new Bucket(this, 'DocumentsS3Bucket', {
       bucketName: 'gsos-docs',
       blockPublicAccess: BlockPublicAccess.BLOCK_ALL,
-      encryption: BucketEncryption.S3_MANAGED,
+      encryption: BucketEncryption.KMS,
+      encryptionKey: s3Key,
       enforceSSL: true,
       versioned: true,
       removalPolicy: RemovalPolicy.RETAIN
@@ -229,5 +266,12 @@ export class DataStack extends Stack {
     // TODO: Add basic AV scan placeholder (Lambda trigger for S3 uploads)
     // This would typically integrate with AWS GuardDuty Malware Protection
     // or a third-party antivirus solution
+
+    // Stack outputs
+    new CfnOutput(this, 'BucketName', {
+      value: this.documentsS3Bucket.bucketName,
+      description: 'GSOS Documents S3 Bucket Name',
+      exportName: 'GSOS-BucketName'
+    });
   }
 }

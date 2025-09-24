@@ -1,0 +1,5722 @@
+{
+  "config": {
+    "configFile": "/Users/dominicnel/gsos/tests/e2e/playwright.config.ts",
+    "rootDir": "/Users/dominicnel/gsos/tests/e2e/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": "/Users/dominicnel/gsos/tests/e2e/global-setup.ts",
+    "globalTeardown": "/Users/dominicnel/gsos/tests/e2e/global-teardown.ts",
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "test-results/results.xml"
+        }
+      ],
+      [
+        "list",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/dominicnel/gsos/tests/e2e/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/dominicnel/gsos/tests/e2e/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/dominicnel/gsos/tests/e2e/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/Users/dominicnel/gsos/tests/e2e/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/dominicnel/gsos/tests/e2e/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/Users/dominicnel/gsos/tests/e2e/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/dominicnel/gsos/tests/e2e/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "Mobile Chrome",
+        "name": "Mobile Chrome",
+        "testDir": "/Users/dominicnel/gsos/tests/e2e/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/dominicnel/gsos/tests/e2e/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "Mobile Safari",
+        "name": "Mobile Safari",
+        "testDir": "/Users/dominicnel/gsos/tests/e2e/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/dominicnel/gsos/tests/e2e/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "Microsoft Edge",
+        "name": "Microsoft Edge",
+        "testDir": "/Users/dominicnel/gsos/tests/e2e/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/dominicnel/gsos/tests/e2e/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "Google Chrome",
+        "name": "Google Chrome",
+        "testDir": "/Users/dominicnel/gsos/tests/e2e/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.55.1",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "admissions.spec.ts",
+      "file": "admissions.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Admissions Workflow",
+          "file": "admissions.spec.ts",
+          "line": 17,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Complete admissions workflow: submit form → admin accepts → student record exists",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "8b1ea91871441b652043-e20ef3cae5c864c980e6",
+              "file": "admissions.spec.ts",
+              "line": 23,
+              "column": 7
+            },
+            {
+              "title": "Admin can reject application with reason",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "8b1ea91871441b652043-23b1582ee208c9e4a31b",
+              "file": "admissions.spec.ts",
+              "line": 157,
+              "column": 7
+            },
+            {
+              "title": "Application form validation works correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "8b1ea91871441b652043-991a014ef323925019a9",
+              "file": "admissions.spec.ts",
+              "line": 195,
+              "column": 7
+            },
+            {
+              "title": "Complete admissions workflow: submit form → admin accepts → student record exists",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "8b1ea91871441b652043-c0bb3d50be92be93b6f5",
+              "file": "admissions.spec.ts",
+              "line": 23,
+              "column": 7
+            },
+            {
+              "title": "Admin can reject application with reason",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "8b1ea91871441b652043-4db111024e47fcb395ba",
+              "file": "admissions.spec.ts",
+              "line": 157,
+              "column": 7
+            },
+            {
+              "title": "Application form validation works correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "8b1ea91871441b652043-2cb2ad13dd515380ba62",
+              "file": "admissions.spec.ts",
+              "line": 195,
+              "column": 7
+            },
+            {
+              "title": "Complete admissions workflow: submit form → admin accepts → student record exists",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "8b1ea91871441b652043-e1e569e6690cd9b06122",
+              "file": "admissions.spec.ts",
+              "line": 23,
+              "column": 7
+            },
+            {
+              "title": "Admin can reject application with reason",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "8b1ea91871441b652043-77104f46a8f660c8c6e3",
+              "file": "admissions.spec.ts",
+              "line": 157,
+              "column": 7
+            },
+            {
+              "title": "Application form validation works correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "8b1ea91871441b652043-45e97c3639dc7453e265",
+              "file": "admissions.spec.ts",
+              "line": 195,
+              "column": 7
+            },
+            {
+              "title": "Complete admissions workflow: submit form → admin accepts → student record exists",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "8b1ea91871441b652043-29e2de20696bd967eab8",
+              "file": "admissions.spec.ts",
+              "line": 23,
+              "column": 7
+            },
+            {
+              "title": "Admin can reject application with reason",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "8b1ea91871441b652043-fba17e80c8047958db4f",
+              "file": "admissions.spec.ts",
+              "line": 157,
+              "column": 7
+            },
+            {
+              "title": "Application form validation works correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "8b1ea91871441b652043-88db3e387cec17d4702b",
+              "file": "admissions.spec.ts",
+              "line": 195,
+              "column": 7
+            },
+            {
+              "title": "Complete admissions workflow: submit form → admin accepts → student record exists",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "8b1ea91871441b652043-27423c09b54dcb0ad0a0",
+              "file": "admissions.spec.ts",
+              "line": 23,
+              "column": 7
+            },
+            {
+              "title": "Admin can reject application with reason",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "8b1ea91871441b652043-d026556467e787cce87e",
+              "file": "admissions.spec.ts",
+              "line": 157,
+              "column": 7
+            },
+            {
+              "title": "Application form validation works correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "8b1ea91871441b652043-56c68f4cdad20eab30a3",
+              "file": "admissions.spec.ts",
+              "line": 195,
+              "column": 7
+            },
+            {
+              "title": "Complete admissions workflow: submit form → admin accepts → student record exists",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "8b1ea91871441b652043-97742a13190bc71e0fb2",
+              "file": "admissions.spec.ts",
+              "line": 23,
+              "column": 7
+            },
+            {
+              "title": "Admin can reject application with reason",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "8b1ea91871441b652043-c0c4ec6c8aa7dfa72768",
+              "file": "admissions.spec.ts",
+              "line": 157,
+              "column": 7
+            },
+            {
+              "title": "Application form validation works correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "8b1ea91871441b652043-512bac47069e3f756e96",
+              "file": "admissions.spec.ts",
+              "line": 195,
+              "column": 7
+            },
+            {
+              "title": "Complete admissions workflow: submit form → admin accepts → student record exists",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "8b1ea91871441b652043-fb28958e38d0ea08cc77",
+              "file": "admissions.spec.ts",
+              "line": 23,
+              "column": 7
+            },
+            {
+              "title": "Admin can reject application with reason",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "8b1ea91871441b652043-914df23a9fd76a8197af",
+              "file": "admissions.spec.ts",
+              "line": 157,
+              "column": 7
+            },
+            {
+              "title": "Application form validation works correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "8b1ea91871441b652043-baae8d00e8d5468289ad",
+              "file": "admissions.spec.ts",
+              "line": 195,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "attendance.spec.ts",
+      "file": "attendance.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Attendance Management",
+          "file": "attendance.spec.ts",
+          "line": 17,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Complete attendance workflow: teacher marks class → student sees day status",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-8bdd70b5d92e6bdb81da",
+              "file": "attendance.spec.ts",
+              "line": 18,
+              "column": 7
+            },
+            {
+              "title": "Teacher can mark attendance for multiple periods",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-1cf517ef8bd4d99c4c9d",
+              "file": "attendance.spec.ts",
+              "line": 109,
+              "column": 7
+            },
+            {
+              "title": "Attendance statistics and reports",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-ecfc1e028ef415a63163",
+              "file": "attendance.spec.ts",
+              "line": 156,
+              "column": 7
+            },
+            {
+              "title": "Bulk attendance marking",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-08ebf73e1e50307ea4ea",
+              "file": "attendance.spec.ts",
+              "line": 191,
+              "column": 7
+            },
+            {
+              "title": "Late arrival and early departure tracking",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-2c9aa36a52df9526ddf0",
+              "file": "attendance.spec.ts",
+              "line": 225,
+              "column": 7
+            },
+            {
+              "title": "Attendance notifications and alerts",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-cfe92dc88a2611462604",
+              "file": "attendance.spec.ts",
+              "line": 271,
+              "column": 7
+            },
+            {
+              "title": "Complete attendance workflow: teacher marks class → student sees day status",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-56f633ae2b5b3050f1e7",
+              "file": "attendance.spec.ts",
+              "line": 18,
+              "column": 7
+            },
+            {
+              "title": "Teacher can mark attendance for multiple periods",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-632084cf6afd98d6dc35",
+              "file": "attendance.spec.ts",
+              "line": 109,
+              "column": 7
+            },
+            {
+              "title": "Attendance statistics and reports",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-b58ac5abd198acfada01",
+              "file": "attendance.spec.ts",
+              "line": 156,
+              "column": 7
+            },
+            {
+              "title": "Bulk attendance marking",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-fb3354c798d4b1d4c5f5",
+              "file": "attendance.spec.ts",
+              "line": 191,
+              "column": 7
+            },
+            {
+              "title": "Late arrival and early departure tracking",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-30f23503e54d8a2100a3",
+              "file": "attendance.spec.ts",
+              "line": 225,
+              "column": 7
+            },
+            {
+              "title": "Attendance notifications and alerts",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-da89384d361632e018dc",
+              "file": "attendance.spec.ts",
+              "line": 271,
+              "column": 7
+            },
+            {
+              "title": "Complete attendance workflow: teacher marks class → student sees day status",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-74b45338ba513b72029b",
+              "file": "attendance.spec.ts",
+              "line": 18,
+              "column": 7
+            },
+            {
+              "title": "Teacher can mark attendance for multiple periods",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-e83771b0de5b4c8b7146",
+              "file": "attendance.spec.ts",
+              "line": 109,
+              "column": 7
+            },
+            {
+              "title": "Attendance statistics and reports",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-2c63fe1805bffdfdee78",
+              "file": "attendance.spec.ts",
+              "line": 156,
+              "column": 7
+            },
+            {
+              "title": "Bulk attendance marking",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-8f1173ad5cd27455a284",
+              "file": "attendance.spec.ts",
+              "line": 191,
+              "column": 7
+            },
+            {
+              "title": "Late arrival and early departure tracking",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-d30a74cc6b18d77b0613",
+              "file": "attendance.spec.ts",
+              "line": 225,
+              "column": 7
+            },
+            {
+              "title": "Attendance notifications and alerts",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-b6fdcc99251c3c81e01b",
+              "file": "attendance.spec.ts",
+              "line": 271,
+              "column": 7
+            },
+            {
+              "title": "Complete attendance workflow: teacher marks class → student sees day status",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-f4fafeefa37db76e082c",
+              "file": "attendance.spec.ts",
+              "line": 18,
+              "column": 7
+            },
+            {
+              "title": "Teacher can mark attendance for multiple periods",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-9ee270d3d78be7fa8405",
+              "file": "attendance.spec.ts",
+              "line": 109,
+              "column": 7
+            },
+            {
+              "title": "Attendance statistics and reports",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-82fdf06c3b2ecf69c8b7",
+              "file": "attendance.spec.ts",
+              "line": 156,
+              "column": 7
+            },
+            {
+              "title": "Bulk attendance marking",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-b00754c7bc9528578876",
+              "file": "attendance.spec.ts",
+              "line": 191,
+              "column": 7
+            },
+            {
+              "title": "Late arrival and early departure tracking",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-733f96f030a296f8809a",
+              "file": "attendance.spec.ts",
+              "line": 225,
+              "column": 7
+            },
+            {
+              "title": "Attendance notifications and alerts",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-e79318077d0cd72cb90d",
+              "file": "attendance.spec.ts",
+              "line": 271,
+              "column": 7
+            },
+            {
+              "title": "Complete attendance workflow: teacher marks class → student sees day status",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-dd8eb09f106ac2931d18",
+              "file": "attendance.spec.ts",
+              "line": 18,
+              "column": 7
+            },
+            {
+              "title": "Teacher can mark attendance for multiple periods",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-0941df813538d1f51f0a",
+              "file": "attendance.spec.ts",
+              "line": 109,
+              "column": 7
+            },
+            {
+              "title": "Attendance statistics and reports",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-fbba1ccf887dcfe61bf2",
+              "file": "attendance.spec.ts",
+              "line": 156,
+              "column": 7
+            },
+            {
+              "title": "Bulk attendance marking",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-b3b9fc402ef208271640",
+              "file": "attendance.spec.ts",
+              "line": 191,
+              "column": 7
+            },
+            {
+              "title": "Late arrival and early departure tracking",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-c01aa117a1754a51d664",
+              "file": "attendance.spec.ts",
+              "line": 225,
+              "column": 7
+            },
+            {
+              "title": "Attendance notifications and alerts",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-a05c99f8cbb9e84c6355",
+              "file": "attendance.spec.ts",
+              "line": 271,
+              "column": 7
+            },
+            {
+              "title": "Complete attendance workflow: teacher marks class → student sees day status",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-e0273d0ae3336020527c",
+              "file": "attendance.spec.ts",
+              "line": 18,
+              "column": 7
+            },
+            {
+              "title": "Teacher can mark attendance for multiple periods",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-c6b8ab6133c99e6ed633",
+              "file": "attendance.spec.ts",
+              "line": 109,
+              "column": 7
+            },
+            {
+              "title": "Attendance statistics and reports",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-7e8eb7e88bedbedf7024",
+              "file": "attendance.spec.ts",
+              "line": 156,
+              "column": 7
+            },
+            {
+              "title": "Bulk attendance marking",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-3afa9152b0853a3ca8b9",
+              "file": "attendance.spec.ts",
+              "line": 191,
+              "column": 7
+            },
+            {
+              "title": "Late arrival and early departure tracking",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-8ede2017a37e46f83646",
+              "file": "attendance.spec.ts",
+              "line": 225,
+              "column": 7
+            },
+            {
+              "title": "Attendance notifications and alerts",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-2e0f70ab6b326784e8aa",
+              "file": "attendance.spec.ts",
+              "line": 271,
+              "column": 7
+            },
+            {
+              "title": "Complete attendance workflow: teacher marks class → student sees day status",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-dd6732ffa48aed2cf193",
+              "file": "attendance.spec.ts",
+              "line": 18,
+              "column": 7
+            },
+            {
+              "title": "Teacher can mark attendance for multiple periods",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-032a6e7a78f971f9056c",
+              "file": "attendance.spec.ts",
+              "line": 109,
+              "column": 7
+            },
+            {
+              "title": "Attendance statistics and reports",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-c4c7df24ac9f47813bba",
+              "file": "attendance.spec.ts",
+              "line": 156,
+              "column": 7
+            },
+            {
+              "title": "Bulk attendance marking",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-ea64609c297d4e9bb3e2",
+              "file": "attendance.spec.ts",
+              "line": 191,
+              "column": 7
+            },
+            {
+              "title": "Late arrival and early departure tracking",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-1a01f7d896c89c585739",
+              "file": "attendance.spec.ts",
+              "line": 225,
+              "column": 7
+            },
+            {
+              "title": "Attendance notifications and alerts",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3b9a56e6ecc460e88dcd-92df405fac65fa5f5de7",
+              "file": "attendance.spec.ts",
+              "line": 271,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "auth.spec.ts",
+      "file": "auth.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Authentication and Authorization",
+          "file": "auth.spec.ts",
+          "line": 15,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Role gates prevent unauthorized access - Admin areas",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-1ad32a51c5f1f93e6567",
+              "file": "auth.spec.ts",
+              "line": 16,
+              "column": 7
+            },
+            {
+              "title": "Role gates prevent unauthorized access - Student data",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-da4e8c61947551df39f3",
+              "file": "auth.spec.ts",
+              "line": 68,
+              "column": 7
+            },
+            {
+              "title": "Role gates prevent unauthorized access - Financial data",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-33e72fed8bbdef8bbbda",
+              "file": "auth.spec.ts",
+              "line": 105,
+              "column": 7
+            },
+            {
+              "title": "Authentication flow and session management",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-aaa68e0564f09ae2d633",
+              "file": "auth.spec.ts",
+              "line": 151,
+              "column": 7
+            },
+            {
+              "title": "Invalid login attempts and security measures",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-dcbe22e6bd58423bb13e",
+              "file": "auth.spec.ts",
+              "line": 190,
+              "column": 7
+            },
+            {
+              "title": "Password reset functionality",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-d170cf957bdf7af66f46",
+              "file": "auth.spec.ts",
+              "line": 233,
+              "column": 7
+            },
+            {
+              "title": "Multi-factor authentication (if enabled)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-c0f85341dcd3c64fa9c5",
+              "file": "auth.spec.ts",
+              "line": 259,
+              "column": 7
+            },
+            {
+              "title": "Role-based navigation menu visibility",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-325432af4a59faab39b9",
+              "file": "auth.spec.ts",
+              "line": 289,
+              "column": 7
+            },
+            {
+              "title": "API endpoint authorization",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-08c21cc0847aaceaa672",
+              "file": "auth.spec.ts",
+              "line": 335,
+              "column": 7
+            },
+            {
+              "title": "Role gates prevent unauthorized access - Admin areas",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-66520a509d9a01dcc538",
+              "file": "auth.spec.ts",
+              "line": 16,
+              "column": 7
+            },
+            {
+              "title": "Role gates prevent unauthorized access - Student data",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-2dfbe60f579c607bedda",
+              "file": "auth.spec.ts",
+              "line": 68,
+              "column": 7
+            },
+            {
+              "title": "Role gates prevent unauthorized access - Financial data",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-d65733019cd021c18bf0",
+              "file": "auth.spec.ts",
+              "line": 105,
+              "column": 7
+            },
+            {
+              "title": "Authentication flow and session management",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-f7bba1b5eada49686314",
+              "file": "auth.spec.ts",
+              "line": 151,
+              "column": 7
+            },
+            {
+              "title": "Invalid login attempts and security measures",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-18164768b25b6207ffb5",
+              "file": "auth.spec.ts",
+              "line": 190,
+              "column": 7
+            },
+            {
+              "title": "Password reset functionality",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-740d4286fc20377202de",
+              "file": "auth.spec.ts",
+              "line": 233,
+              "column": 7
+            },
+            {
+              "title": "Multi-factor authentication (if enabled)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-93918e12f0572f821da4",
+              "file": "auth.spec.ts",
+              "line": 259,
+              "column": 7
+            },
+            {
+              "title": "Role-based navigation menu visibility",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-35274c08b67e705b1e17",
+              "file": "auth.spec.ts",
+              "line": 289,
+              "column": 7
+            },
+            {
+              "title": "API endpoint authorization",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-da0dd0d22753c61aba3f",
+              "file": "auth.spec.ts",
+              "line": 335,
+              "column": 7
+            },
+            {
+              "title": "Role gates prevent unauthorized access - Admin areas",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-f920e5dd1be527f06efd",
+              "file": "auth.spec.ts",
+              "line": 16,
+              "column": 7
+            },
+            {
+              "title": "Role gates prevent unauthorized access - Student data",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-6fc1d4d4b0e9e2bbe254",
+              "file": "auth.spec.ts",
+              "line": 68,
+              "column": 7
+            },
+            {
+              "title": "Role gates prevent unauthorized access - Financial data",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-288c5da1ebab587599d3",
+              "file": "auth.spec.ts",
+              "line": 105,
+              "column": 7
+            },
+            {
+              "title": "Authentication flow and session management",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-efa85f004b5d6555f069",
+              "file": "auth.spec.ts",
+              "line": 151,
+              "column": 7
+            },
+            {
+              "title": "Invalid login attempts and security measures",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-39028907f824b0a86cca",
+              "file": "auth.spec.ts",
+              "line": 190,
+              "column": 7
+            },
+            {
+              "title": "Password reset functionality",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-e23b191b96ba7a6000f4",
+              "file": "auth.spec.ts",
+              "line": 233,
+              "column": 7
+            },
+            {
+              "title": "Multi-factor authentication (if enabled)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-33a83bb0d90e312d8d21",
+              "file": "auth.spec.ts",
+              "line": 259,
+              "column": 7
+            },
+            {
+              "title": "Role-based navigation menu visibility",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-3c2edba3db78e99d5cea",
+              "file": "auth.spec.ts",
+              "line": 289,
+              "column": 7
+            },
+            {
+              "title": "API endpoint authorization",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-dafb0d7c311d107e41a8",
+              "file": "auth.spec.ts",
+              "line": 335,
+              "column": 7
+            },
+            {
+              "title": "Role gates prevent unauthorized access - Admin areas",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-d193768fd27335e0770e",
+              "file": "auth.spec.ts",
+              "line": 16,
+              "column": 7
+            },
+            {
+              "title": "Role gates prevent unauthorized access - Student data",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-6cc44fd4403b45fa820d",
+              "file": "auth.spec.ts",
+              "line": 68,
+              "column": 7
+            },
+            {
+              "title": "Role gates prevent unauthorized access - Financial data",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-81b987917480e5bab6cf",
+              "file": "auth.spec.ts",
+              "line": 105,
+              "column": 7
+            },
+            {
+              "title": "Authentication flow and session management",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-1223f3d3b4005b18324d",
+              "file": "auth.spec.ts",
+              "line": 151,
+              "column": 7
+            },
+            {
+              "title": "Invalid login attempts and security measures",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-d07f1cf164a9b5fdf172",
+              "file": "auth.spec.ts",
+              "line": 190,
+              "column": 7
+            },
+            {
+              "title": "Password reset functionality",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-ce9754fbb43a4cf4353b",
+              "file": "auth.spec.ts",
+              "line": 233,
+              "column": 7
+            },
+            {
+              "title": "Multi-factor authentication (if enabled)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-5bc44b23ae0e6575447c",
+              "file": "auth.spec.ts",
+              "line": 259,
+              "column": 7
+            },
+            {
+              "title": "Role-based navigation menu visibility",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-c114618aa48bd5232488",
+              "file": "auth.spec.ts",
+              "line": 289,
+              "column": 7
+            },
+            {
+              "title": "API endpoint authorization",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-93d6d5f182f7c0b1b966",
+              "file": "auth.spec.ts",
+              "line": 335,
+              "column": 7
+            },
+            {
+              "title": "Role gates prevent unauthorized access - Admin areas",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-cc86f344cef23c2a7a55",
+              "file": "auth.spec.ts",
+              "line": 16,
+              "column": 7
+            },
+            {
+              "title": "Role gates prevent unauthorized access - Student data",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-0762265b821c3a99114f",
+              "file": "auth.spec.ts",
+              "line": 68,
+              "column": 7
+            },
+            {
+              "title": "Role gates prevent unauthorized access - Financial data",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-5f4dbd934739ac5a5847",
+              "file": "auth.spec.ts",
+              "line": 105,
+              "column": 7
+            },
+            {
+              "title": "Authentication flow and session management",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-6d483d1330eb8ceb150b",
+              "file": "auth.spec.ts",
+              "line": 151,
+              "column": 7
+            },
+            {
+              "title": "Invalid login attempts and security measures",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-f7765a2cdb580e13c7e9",
+              "file": "auth.spec.ts",
+              "line": 190,
+              "column": 7
+            },
+            {
+              "title": "Password reset functionality",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-c5cd132daa72fa46631f",
+              "file": "auth.spec.ts",
+              "line": 233,
+              "column": 7
+            },
+            {
+              "title": "Multi-factor authentication (if enabled)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-852ac838106f16d1f196",
+              "file": "auth.spec.ts",
+              "line": 259,
+              "column": 7
+            },
+            {
+              "title": "Role-based navigation menu visibility",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-874cb444bd22ae148e18",
+              "file": "auth.spec.ts",
+              "line": 289,
+              "column": 7
+            },
+            {
+              "title": "API endpoint authorization",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-b03eb37946c72033db07",
+              "file": "auth.spec.ts",
+              "line": 335,
+              "column": 7
+            },
+            {
+              "title": "Role gates prevent unauthorized access - Admin areas",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-547c23450f55a6a5e5eb",
+              "file": "auth.spec.ts",
+              "line": 16,
+              "column": 7
+            },
+            {
+              "title": "Role gates prevent unauthorized access - Student data",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-14b7273c7c44deecfc3e",
+              "file": "auth.spec.ts",
+              "line": 68,
+              "column": 7
+            },
+            {
+              "title": "Role gates prevent unauthorized access - Financial data",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-2046c7c3d5ee6f6ebee9",
+              "file": "auth.spec.ts",
+              "line": 105,
+              "column": 7
+            },
+            {
+              "title": "Authentication flow and session management",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-27e2333982b7efcaad30",
+              "file": "auth.spec.ts",
+              "line": 151,
+              "column": 7
+            },
+            {
+              "title": "Invalid login attempts and security measures",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-65950a734d10da1b5d59",
+              "file": "auth.spec.ts",
+              "line": 190,
+              "column": 7
+            },
+            {
+              "title": "Password reset functionality",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-5bcf82fc11ecb19bc8f5",
+              "file": "auth.spec.ts",
+              "line": 233,
+              "column": 7
+            },
+            {
+              "title": "Multi-factor authentication (if enabled)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-3d0ed139ae93a6f48922",
+              "file": "auth.spec.ts",
+              "line": 259,
+              "column": 7
+            },
+            {
+              "title": "Role-based navigation menu visibility",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-8bfe25ace5fa030ab20e",
+              "file": "auth.spec.ts",
+              "line": 289,
+              "column": 7
+            },
+            {
+              "title": "API endpoint authorization",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-92851f106c80b176030c",
+              "file": "auth.spec.ts",
+              "line": 335,
+              "column": 7
+            },
+            {
+              "title": "Role gates prevent unauthorized access - Admin areas",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-b640ccc2a5e9f867f5cc",
+              "file": "auth.spec.ts",
+              "line": 16,
+              "column": 7
+            },
+            {
+              "title": "Role gates prevent unauthorized access - Student data",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-31d13b17a82b6b89ac05",
+              "file": "auth.spec.ts",
+              "line": 68,
+              "column": 7
+            },
+            {
+              "title": "Role gates prevent unauthorized access - Financial data",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-e222dcb7fcf2519cf3d4",
+              "file": "auth.spec.ts",
+              "line": 105,
+              "column": 7
+            },
+            {
+              "title": "Authentication flow and session management",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-137a54186c15a8665897",
+              "file": "auth.spec.ts",
+              "line": 151,
+              "column": 7
+            },
+            {
+              "title": "Invalid login attempts and security measures",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-fae9d760102dad789630",
+              "file": "auth.spec.ts",
+              "line": 190,
+              "column": 7
+            },
+            {
+              "title": "Password reset functionality",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-308b6ff8a83376156e78",
+              "file": "auth.spec.ts",
+              "line": 233,
+              "column": 7
+            },
+            {
+              "title": "Multi-factor authentication (if enabled)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-f976d0efd8eb23c68a71",
+              "file": "auth.spec.ts",
+              "line": 259,
+              "column": 7
+            },
+            {
+              "title": "Role-based navigation menu visibility",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-726243db1eaa7d53e4db",
+              "file": "auth.spec.ts",
+              "line": 289,
+              "column": 7
+            },
+            {
+              "title": "API endpoint authorization",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-3d7fd73b6e59cf6abc2e",
+              "file": "auth.spec.ts",
+              "line": 335,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "finance.spec.ts",
+      "file": "finance.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Finance Management",
+          "file": "finance.spec.ts",
+          "line": 18,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Complete finance workflow: create invoice → student pays in sandbox → webhook reconciles status",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-5a85f645e5140f7c821a",
+              "file": "finance.spec.ts",
+              "line": 19,
+              "column": 7
+            },
+            {
+              "title": "Create and manage different types of invoices",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-0a6595b7e94c31856b1a",
+              "file": "finance.spec.ts",
+              "line": 183,
+              "column": 7
+            },
+            {
+              "title": "Payment plan and installment management",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-17a8da0de86b2646f6db",
+              "file": "finance.spec.ts",
+              "line": 225,
+              "column": 7
+            },
+            {
+              "title": "Financial reporting and analytics",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-9e25aa341b9c2a50cb07",
+              "file": "finance.spec.ts",
+              "line": 265,
+              "column": 7
+            },
+            {
+              "title": "Refund and credit management",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-8d639c680ad9fffa2c44",
+              "file": "finance.spec.ts",
+              "line": 300,
+              "column": 7
+            },
+            {
+              "title": "Payment reminder and notification system",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-2d77752acfd5796346c3",
+              "file": "finance.spec.ts",
+              "line": 349,
+              "column": 7
+            },
+            {
+              "title": "Complete finance workflow: create invoice → student pays in sandbox → webhook reconciles status",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-4a71ec4ef39f4e071a16",
+              "file": "finance.spec.ts",
+              "line": 19,
+              "column": 7
+            },
+            {
+              "title": "Create and manage different types of invoices",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-a5ff314b5acc3366a53d",
+              "file": "finance.spec.ts",
+              "line": 183,
+              "column": 7
+            },
+            {
+              "title": "Payment plan and installment management",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-46b6b4cc25168ad0dccc",
+              "file": "finance.spec.ts",
+              "line": 225,
+              "column": 7
+            },
+            {
+              "title": "Financial reporting and analytics",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-bed5383114b1499b5fa2",
+              "file": "finance.spec.ts",
+              "line": 265,
+              "column": 7
+            },
+            {
+              "title": "Refund and credit management",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-d06b774faaeae8bf2db2",
+              "file": "finance.spec.ts",
+              "line": 300,
+              "column": 7
+            },
+            {
+              "title": "Payment reminder and notification system",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-b605fd436f7fd00702c6",
+              "file": "finance.spec.ts",
+              "line": 349,
+              "column": 7
+            },
+            {
+              "title": "Complete finance workflow: create invoice → student pays in sandbox → webhook reconciles status",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-b00256c4c80650e06930",
+              "file": "finance.spec.ts",
+              "line": 19,
+              "column": 7
+            },
+            {
+              "title": "Create and manage different types of invoices",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-03f8d2acfff3d9dbb4d2",
+              "file": "finance.spec.ts",
+              "line": 183,
+              "column": 7
+            },
+            {
+              "title": "Payment plan and installment management",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-c23acb6238d2d526bfa4",
+              "file": "finance.spec.ts",
+              "line": 225,
+              "column": 7
+            },
+            {
+              "title": "Financial reporting and analytics",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-5bb1e7a06f465019f664",
+              "file": "finance.spec.ts",
+              "line": 265,
+              "column": 7
+            },
+            {
+              "title": "Refund and credit management",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-5b6abd1d5e8bb9aed05f",
+              "file": "finance.spec.ts",
+              "line": 300,
+              "column": 7
+            },
+            {
+              "title": "Payment reminder and notification system",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-078bad9dfefff6eb8028",
+              "file": "finance.spec.ts",
+              "line": 349,
+              "column": 7
+            },
+            {
+              "title": "Complete finance workflow: create invoice → student pays in sandbox → webhook reconciles status",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-7f0d058f1bfe1caae52d",
+              "file": "finance.spec.ts",
+              "line": 19,
+              "column": 7
+            },
+            {
+              "title": "Create and manage different types of invoices",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-e56c30dba4b6ec207906",
+              "file": "finance.spec.ts",
+              "line": 183,
+              "column": 7
+            },
+            {
+              "title": "Payment plan and installment management",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-4b963a035d9c20fff8e6",
+              "file": "finance.spec.ts",
+              "line": 225,
+              "column": 7
+            },
+            {
+              "title": "Financial reporting and analytics",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-ca4f900043e472d21fe0",
+              "file": "finance.spec.ts",
+              "line": 265,
+              "column": 7
+            },
+            {
+              "title": "Refund and credit management",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-42871d0a656c7860e555",
+              "file": "finance.spec.ts",
+              "line": 300,
+              "column": 7
+            },
+            {
+              "title": "Payment reminder and notification system",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-6b06ba8acd77141920ce",
+              "file": "finance.spec.ts",
+              "line": 349,
+              "column": 7
+            },
+            {
+              "title": "Complete finance workflow: create invoice → student pays in sandbox → webhook reconciles status",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-826b99c08507c3112f32",
+              "file": "finance.spec.ts",
+              "line": 19,
+              "column": 7
+            },
+            {
+              "title": "Create and manage different types of invoices",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-9f0344f360cb6455adae",
+              "file": "finance.spec.ts",
+              "line": 183,
+              "column": 7
+            },
+            {
+              "title": "Payment plan and installment management",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-8de82def603dbac0722e",
+              "file": "finance.spec.ts",
+              "line": 225,
+              "column": 7
+            },
+            {
+              "title": "Financial reporting and analytics",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-c39800f6cf17f91fe58f",
+              "file": "finance.spec.ts",
+              "line": 265,
+              "column": 7
+            },
+            {
+              "title": "Refund and credit management",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-1513016d49552277513e",
+              "file": "finance.spec.ts",
+              "line": 300,
+              "column": 7
+            },
+            {
+              "title": "Payment reminder and notification system",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-7834a36eab6e9b22a9fd",
+              "file": "finance.spec.ts",
+              "line": 349,
+              "column": 7
+            },
+            {
+              "title": "Complete finance workflow: create invoice → student pays in sandbox → webhook reconciles status",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-5adc8b9a494aeb3262f0",
+              "file": "finance.spec.ts",
+              "line": 19,
+              "column": 7
+            },
+            {
+              "title": "Create and manage different types of invoices",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-cdd7a180d030f1b4b352",
+              "file": "finance.spec.ts",
+              "line": 183,
+              "column": 7
+            },
+            {
+              "title": "Payment plan and installment management",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-d930dc9acf867fd7b299",
+              "file": "finance.spec.ts",
+              "line": 225,
+              "column": 7
+            },
+            {
+              "title": "Financial reporting and analytics",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-e7d1a48465a744331e56",
+              "file": "finance.spec.ts",
+              "line": 265,
+              "column": 7
+            },
+            {
+              "title": "Refund and credit management",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-e9d452a038f5e08ad0ae",
+              "file": "finance.spec.ts",
+              "line": 300,
+              "column": 7
+            },
+            {
+              "title": "Payment reminder and notification system",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-8ef98898bc36d255c191",
+              "file": "finance.spec.ts",
+              "line": 349,
+              "column": 7
+            },
+            {
+              "title": "Complete finance workflow: create invoice → student pays in sandbox → webhook reconciles status",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-49d02ef0ee03b11187fc",
+              "file": "finance.spec.ts",
+              "line": 19,
+              "column": 7
+            },
+            {
+              "title": "Create and manage different types of invoices",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-370ca96690f23583b70b",
+              "file": "finance.spec.ts",
+              "line": 183,
+              "column": 7
+            },
+            {
+              "title": "Payment plan and installment management",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-6cf553d3407819aacbe5",
+              "file": "finance.spec.ts",
+              "line": 225,
+              "column": 7
+            },
+            {
+              "title": "Financial reporting and analytics",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-64e5863c883fb70a6dec",
+              "file": "finance.spec.ts",
+              "line": 265,
+              "column": 7
+            },
+            {
+              "title": "Refund and credit management",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-10865363adf91b4cc254",
+              "file": "finance.spec.ts",
+              "line": 300,
+              "column": 7
+            },
+            {
+              "title": "Payment reminder and notification system",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1d1b0b311adfe43979fc-f29c59800d0061dbd454",
+              "file": "finance.spec.ts",
+              "line": 349,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "smoke.spec.ts",
+      "file": "smoke.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Smoke Tests - Critical User Journeys",
+          "file": "smoke.spec.ts",
+          "line": 19,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Critical Path: Application submission to student enrollment",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-3d52ff7d703db0740fb3",
+              "file": "smoke.spec.ts",
+              "line": 20,
+              "column": 7
+            },
+            {
+              "title": "Authentication and basic navigation smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-c046337faea26c9d01a7",
+              "file": "smoke.spec.ts",
+              "line": 62,
+              "column": 7
+            },
+            {
+              "title": "Student management smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-bba160dbad83d21e8320",
+              "file": "smoke.spec.ts",
+              "line": 89,
+              "column": 7
+            },
+            {
+              "title": "Attendance marking smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-bf0eda320e4a886a13c7",
+              "file": "smoke.spec.ts",
+              "line": 118,
+              "column": 7
+            },
+            {
+              "title": "Finance workflow smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-75228d14fa4fcfd6c516",
+              "file": "smoke.spec.ts",
+              "line": 147,
+              "column": 7
+            },
+            {
+              "title": "System health and performance smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-a7f55b2f30186d0af10d",
+              "file": "smoke.spec.ts",
+              "line": 173,
+              "column": 7
+            },
+            {
+              "title": "Data integrity smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-8faa268b013404b33ccf",
+              "file": "smoke.spec.ts",
+              "line": 200,
+              "column": 7
+            },
+            {
+              "title": "Security smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-fef77f3f5ab70c163812",
+              "file": "smoke.spec.ts",
+              "line": 237,
+              "column": 7
+            },
+            {
+              "title": "Mobile responsiveness smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-53b198f1eafb1e9e974f",
+              "file": "smoke.spec.ts",
+              "line": 261,
+              "column": 7
+            },
+            {
+              "title": "Critical Path: Application submission to student enrollment",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-617bad09889ad9735d37",
+              "file": "smoke.spec.ts",
+              "line": 20,
+              "column": 7
+            },
+            {
+              "title": "Authentication and basic navigation smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-f02a317a84d9c689cae0",
+              "file": "smoke.spec.ts",
+              "line": 62,
+              "column": 7
+            },
+            {
+              "title": "Student management smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-373c36dd269c44e5003c",
+              "file": "smoke.spec.ts",
+              "line": 89,
+              "column": 7
+            },
+            {
+              "title": "Attendance marking smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-d41fa37c40dcfa170f8a",
+              "file": "smoke.spec.ts",
+              "line": 118,
+              "column": 7
+            },
+            {
+              "title": "Finance workflow smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-460376c0cc4a1bbfcd03",
+              "file": "smoke.spec.ts",
+              "line": 147,
+              "column": 7
+            },
+            {
+              "title": "System health and performance smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-dfd09892ebba80d638c2",
+              "file": "smoke.spec.ts",
+              "line": 173,
+              "column": 7
+            },
+            {
+              "title": "Data integrity smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-dceee4803f83e91fb380",
+              "file": "smoke.spec.ts",
+              "line": 200,
+              "column": 7
+            },
+            {
+              "title": "Security smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-fed7a648fdcbebc68d96",
+              "file": "smoke.spec.ts",
+              "line": 237,
+              "column": 7
+            },
+            {
+              "title": "Mobile responsiveness smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-edbf02aba9f9fabcdca4",
+              "file": "smoke.spec.ts",
+              "line": 261,
+              "column": 7
+            },
+            {
+              "title": "Critical Path: Application submission to student enrollment",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-b7dfa87b48f589e9d52c",
+              "file": "smoke.spec.ts",
+              "line": 20,
+              "column": 7
+            },
+            {
+              "title": "Authentication and basic navigation smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-a63658ec0a148cb27fd1",
+              "file": "smoke.spec.ts",
+              "line": 62,
+              "column": 7
+            },
+            {
+              "title": "Student management smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-4dd734db16b41d44b60d",
+              "file": "smoke.spec.ts",
+              "line": 89,
+              "column": 7
+            },
+            {
+              "title": "Attendance marking smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-ab2a72e49cdaffb69532",
+              "file": "smoke.spec.ts",
+              "line": 118,
+              "column": 7
+            },
+            {
+              "title": "Finance workflow smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-9f7abb6fd0a6a9f115ca",
+              "file": "smoke.spec.ts",
+              "line": 147,
+              "column": 7
+            },
+            {
+              "title": "System health and performance smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-d58fd220699877d8c1db",
+              "file": "smoke.spec.ts",
+              "line": 173,
+              "column": 7
+            },
+            {
+              "title": "Data integrity smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-35e5d5278534b2484a14",
+              "file": "smoke.spec.ts",
+              "line": 200,
+              "column": 7
+            },
+            {
+              "title": "Security smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-5b58f65fd5f2afcdb130",
+              "file": "smoke.spec.ts",
+              "line": 237,
+              "column": 7
+            },
+            {
+              "title": "Mobile responsiveness smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-5e91526166fdcc039e5d",
+              "file": "smoke.spec.ts",
+              "line": 261,
+              "column": 7
+            },
+            {
+              "title": "Critical Path: Application submission to student enrollment",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-56e37def6b799c5db7f3",
+              "file": "smoke.spec.ts",
+              "line": 20,
+              "column": 7
+            },
+            {
+              "title": "Authentication and basic navigation smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-84b019391883257cb974",
+              "file": "smoke.spec.ts",
+              "line": 62,
+              "column": 7
+            },
+            {
+              "title": "Student management smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-1fc68301ef255e72ea1b",
+              "file": "smoke.spec.ts",
+              "line": 89,
+              "column": 7
+            },
+            {
+              "title": "Attendance marking smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-5743e72abee873c0b043",
+              "file": "smoke.spec.ts",
+              "line": 118,
+              "column": 7
+            },
+            {
+              "title": "Finance workflow smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-d6e38a6b007db462563d",
+              "file": "smoke.spec.ts",
+              "line": 147,
+              "column": 7
+            },
+            {
+              "title": "System health and performance smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-291071f0a1dca0fc1e99",
+              "file": "smoke.spec.ts",
+              "line": 173,
+              "column": 7
+            },
+            {
+              "title": "Data integrity smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-2e637e337d16f12ce555",
+              "file": "smoke.spec.ts",
+              "line": 200,
+              "column": 7
+            },
+            {
+              "title": "Security smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-0e9ed03fe5c59d0999d7",
+              "file": "smoke.spec.ts",
+              "line": 237,
+              "column": 7
+            },
+            {
+              "title": "Mobile responsiveness smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-dd1a313d89f0aed8f479",
+              "file": "smoke.spec.ts",
+              "line": 261,
+              "column": 7
+            },
+            {
+              "title": "Critical Path: Application submission to student enrollment",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-dab0ce44bb8a13203344",
+              "file": "smoke.spec.ts",
+              "line": 20,
+              "column": 7
+            },
+            {
+              "title": "Authentication and basic navigation smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-c17779b7d1e1043cd7f9",
+              "file": "smoke.spec.ts",
+              "line": 62,
+              "column": 7
+            },
+            {
+              "title": "Student management smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-54ca09649645cac01e44",
+              "file": "smoke.spec.ts",
+              "line": 89,
+              "column": 7
+            },
+            {
+              "title": "Attendance marking smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-ba2d3072b6c120d2662c",
+              "file": "smoke.spec.ts",
+              "line": 118,
+              "column": 7
+            },
+            {
+              "title": "Finance workflow smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-72977c0bfb4f60657c35",
+              "file": "smoke.spec.ts",
+              "line": 147,
+              "column": 7
+            },
+            {
+              "title": "System health and performance smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-66c3029cae67e5cbf81a",
+              "file": "smoke.spec.ts",
+              "line": 173,
+              "column": 7
+            },
+            {
+              "title": "Data integrity smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-e659b59c2598de3c74ee",
+              "file": "smoke.spec.ts",
+              "line": 200,
+              "column": 7
+            },
+            {
+              "title": "Security smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-ce249b189bc55aa06fdf",
+              "file": "smoke.spec.ts",
+              "line": 237,
+              "column": 7
+            },
+            {
+              "title": "Mobile responsiveness smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-e05dd0e3a8d5bca8624b",
+              "file": "smoke.spec.ts",
+              "line": 261,
+              "column": 7
+            },
+            {
+              "title": "Critical Path: Application submission to student enrollment",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-3893dbc162e52e3d76df",
+              "file": "smoke.spec.ts",
+              "line": 20,
+              "column": 7
+            },
+            {
+              "title": "Authentication and basic navigation smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-7af78a5458f66d9fb443",
+              "file": "smoke.spec.ts",
+              "line": 62,
+              "column": 7
+            },
+            {
+              "title": "Student management smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-29ab03642b45c70a1b3e",
+              "file": "smoke.spec.ts",
+              "line": 89,
+              "column": 7
+            },
+            {
+              "title": "Attendance marking smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-c29b6b6c1d90528c9959",
+              "file": "smoke.spec.ts",
+              "line": 118,
+              "column": 7
+            },
+            {
+              "title": "Finance workflow smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-fcba58ea0740de9a4f1e",
+              "file": "smoke.spec.ts",
+              "line": 147,
+              "column": 7
+            },
+            {
+              "title": "System health and performance smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-438ce8c594b689c67a08",
+              "file": "smoke.spec.ts",
+              "line": 173,
+              "column": 7
+            },
+            {
+              "title": "Data integrity smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-eb453d6b2cefc900bbf8",
+              "file": "smoke.spec.ts",
+              "line": 200,
+              "column": 7
+            },
+            {
+              "title": "Security smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-b46ecf42a744ae5d7550",
+              "file": "smoke.spec.ts",
+              "line": 237,
+              "column": 7
+            },
+            {
+              "title": "Mobile responsiveness smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-142198a16af190fe4613",
+              "file": "smoke.spec.ts",
+              "line": 261,
+              "column": 7
+            },
+            {
+              "title": "Critical Path: Application submission to student enrollment",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-8ec58cf31856c77bca4a",
+              "file": "smoke.spec.ts",
+              "line": 20,
+              "column": 7
+            },
+            {
+              "title": "Authentication and basic navigation smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-7379846a1fae725ab318",
+              "file": "smoke.spec.ts",
+              "line": 62,
+              "column": 7
+            },
+            {
+              "title": "Student management smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-8af410d4085e0704fab6",
+              "file": "smoke.spec.ts",
+              "line": 89,
+              "column": 7
+            },
+            {
+              "title": "Attendance marking smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-0efe99124a402cababf4",
+              "file": "smoke.spec.ts",
+              "line": 118,
+              "column": 7
+            },
+            {
+              "title": "Finance workflow smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-9e01e0d29d442b06d5da",
+              "file": "smoke.spec.ts",
+              "line": 147,
+              "column": 7
+            },
+            {
+              "title": "System health and performance smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-532ed57b23669a4317c5",
+              "file": "smoke.spec.ts",
+              "line": 173,
+              "column": 7
+            },
+            {
+              "title": "Data integrity smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-87de399f2cefd0432603",
+              "file": "smoke.spec.ts",
+              "line": 200,
+              "column": 7
+            },
+            {
+              "title": "Security smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-50b965a4122d4d4d7903",
+              "file": "smoke.spec.ts",
+              "line": 237,
+              "column": 7
+            },
+            {
+              "title": "Mobile responsiveness smoke test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-d31af916618c50b442b2",
+              "file": "smoke.spec.ts",
+              "line": 261,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "students.spec.ts",
+      "file": "students.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Students Management",
+          "file": "students.spec.ts",
+          "line": 19,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Create new student with complete information",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-6067222043319cf987bd",
+              "file": "students.spec.ts",
+              "line": 28,
+              "column": 7
+            },
+            {
+              "title": "Edit existing student information",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-5edc337043fb09835476",
+              "file": "students.spec.ts",
+              "line": 83,
+              "column": 7
+            },
+            {
+              "title": "Link guardian to student",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-e3a3a3edeaa33620cf31",
+              "file": "students.spec.ts",
+              "line": 136,
+              "column": 7
+            },
+            {
+              "title": "Student list query and filtering works",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-2b944c8ecc4e2ec1da45",
+              "file": "students.spec.ts",
+              "line": 189,
+              "column": 7
+            },
+            {
+              "title": "Student profile displays complete information",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-d5a8abf0cc329151b159",
+              "file": "students.spec.ts",
+              "line": 261,
+              "column": 7
+            },
+            {
+              "title": "Bulk operations on students",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-e4884f861e102d31ce95",
+              "file": "students.spec.ts",
+              "line": 298,
+              "column": 7
+            },
+            {
+              "title": "Create new student with complete information",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-b23c17a38f31aec56e04",
+              "file": "students.spec.ts",
+              "line": 28,
+              "column": 7
+            },
+            {
+              "title": "Edit existing student information",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-b97a8c4c3dc92be0163a",
+              "file": "students.spec.ts",
+              "line": 83,
+              "column": 7
+            },
+            {
+              "title": "Link guardian to student",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-e7992f697866f926581d",
+              "file": "students.spec.ts",
+              "line": 136,
+              "column": 7
+            },
+            {
+              "title": "Student list query and filtering works",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-e6babb45967599c93b08",
+              "file": "students.spec.ts",
+              "line": 189,
+              "column": 7
+            },
+            {
+              "title": "Student profile displays complete information",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-76573704ad073f32b635",
+              "file": "students.spec.ts",
+              "line": 261,
+              "column": 7
+            },
+            {
+              "title": "Bulk operations on students",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-8765e6870d53b8ee9ee1",
+              "file": "students.spec.ts",
+              "line": 298,
+              "column": 7
+            },
+            {
+              "title": "Create new student with complete information",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-108d110e82849da10379",
+              "file": "students.spec.ts",
+              "line": 28,
+              "column": 7
+            },
+            {
+              "title": "Edit existing student information",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-660b54554edc829e385b",
+              "file": "students.spec.ts",
+              "line": 83,
+              "column": 7
+            },
+            {
+              "title": "Link guardian to student",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-84187ee2c9ed51fcaa35",
+              "file": "students.spec.ts",
+              "line": 136,
+              "column": 7
+            },
+            {
+              "title": "Student list query and filtering works",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-38194a8ef91f1a02d5fc",
+              "file": "students.spec.ts",
+              "line": 189,
+              "column": 7
+            },
+            {
+              "title": "Student profile displays complete information",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-e70cc715aa14a5d3021f",
+              "file": "students.spec.ts",
+              "line": 261,
+              "column": 7
+            },
+            {
+              "title": "Bulk operations on students",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-5ad3531973a5cffeab03",
+              "file": "students.spec.ts",
+              "line": 298,
+              "column": 7
+            },
+            {
+              "title": "Create new student with complete information",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-1f49a17fb96c2cf32ce0",
+              "file": "students.spec.ts",
+              "line": 28,
+              "column": 7
+            },
+            {
+              "title": "Edit existing student information",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-46cc331a804e6c9f4579",
+              "file": "students.spec.ts",
+              "line": 83,
+              "column": 7
+            },
+            {
+              "title": "Link guardian to student",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-966d49626d7a928a169a",
+              "file": "students.spec.ts",
+              "line": 136,
+              "column": 7
+            },
+            {
+              "title": "Student list query and filtering works",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-8035327bb1f25a265849",
+              "file": "students.spec.ts",
+              "line": 189,
+              "column": 7
+            },
+            {
+              "title": "Student profile displays complete information",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-c04c8215557b04cf90de",
+              "file": "students.spec.ts",
+              "line": 261,
+              "column": 7
+            },
+            {
+              "title": "Bulk operations on students",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-f04f228846e51dba293d",
+              "file": "students.spec.ts",
+              "line": 298,
+              "column": 7
+            },
+            {
+              "title": "Create new student with complete information",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-1a340fd54a0702058ac5",
+              "file": "students.spec.ts",
+              "line": 28,
+              "column": 7
+            },
+            {
+              "title": "Edit existing student information",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-5fb904d5ab57ea5f16e9",
+              "file": "students.spec.ts",
+              "line": 83,
+              "column": 7
+            },
+            {
+              "title": "Link guardian to student",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-bafd2849e8921085a888",
+              "file": "students.spec.ts",
+              "line": 136,
+              "column": 7
+            },
+            {
+              "title": "Student list query and filtering works",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-572bffac34003c4a567e",
+              "file": "students.spec.ts",
+              "line": 189,
+              "column": 7
+            },
+            {
+              "title": "Student profile displays complete information",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-706202d90fbfcdeb78d5",
+              "file": "students.spec.ts",
+              "line": 261,
+              "column": 7
+            },
+            {
+              "title": "Bulk operations on students",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-d8531f53c459f0bb6737",
+              "file": "students.spec.ts",
+              "line": 298,
+              "column": 7
+            },
+            {
+              "title": "Create new student with complete information",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-8ac837b2ef8f153be1bd",
+              "file": "students.spec.ts",
+              "line": 28,
+              "column": 7
+            },
+            {
+              "title": "Edit existing student information",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-0953179fc1dbcd61dee1",
+              "file": "students.spec.ts",
+              "line": 83,
+              "column": 7
+            },
+            {
+              "title": "Link guardian to student",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-4a7ca48f6c348b5035be",
+              "file": "students.spec.ts",
+              "line": 136,
+              "column": 7
+            },
+            {
+              "title": "Student list query and filtering works",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-f5aad87606b6b5526aed",
+              "file": "students.spec.ts",
+              "line": 189,
+              "column": 7
+            },
+            {
+              "title": "Student profile displays complete information",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-41c027926de42b1592bb",
+              "file": "students.spec.ts",
+              "line": 261,
+              "column": 7
+            },
+            {
+              "title": "Bulk operations on students",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-4d5f55a4e1d7b653e005",
+              "file": "students.spec.ts",
+              "line": 298,
+              "column": 7
+            },
+            {
+              "title": "Create new student with complete information",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-0a5cf9e56816475f32f1",
+              "file": "students.spec.ts",
+              "line": 28,
+              "column": 7
+            },
+            {
+              "title": "Edit existing student information",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-d48345d3275158d5cef7",
+              "file": "students.spec.ts",
+              "line": 83,
+              "column": 7
+            },
+            {
+              "title": "Link guardian to student",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-3bfd7efc77e705736d55",
+              "file": "students.spec.ts",
+              "line": 136,
+              "column": 7
+            },
+            {
+              "title": "Student list query and filtering works",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-1ff7e79608efbb2d88a8",
+              "file": "students.spec.ts",
+              "line": 189,
+              "column": 7
+            },
+            {
+              "title": "Student profile displays complete information",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-d7ae54e290fee4bb781a",
+              "file": "students.spec.ts",
+              "line": 261,
+              "column": 7
+            },
+            {
+              "title": "Bulk operations on students",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "070ffa9c3689b3a10912-e70e9019665d72bf94fa",
+              "file": "students.spec.ts",
+              "line": 298,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-09-24T10:23:09.274Z",
+    "duration": 277.19300000000004,
+    "expected": 0,
+    "skipped": 273,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

@@ -1,4 +1,4 @@
-import { Duration, Stack, StackProps } from 'aws-cdk-lib';
+import { Duration, Stack, StackProps, CfnOutput } from 'aws-cdk-lib';
 import { Construct } from 'constructs';
 import { HttpApi, CorsHttpMethod, HttpMethod } from 'aws-cdk-lib/aws-apigatewayv2';
 import { HttpLambdaIntegration } from 'aws-cdk-lib/aws-apigatewayv2-integrations';
@@ -19,10 +19,10 @@ export class ApiStack extends Stack {
   constructor(scope: Construct, id: string, { data, auth, ...props }: ApiProps) {
     super(scope, id, props);
 
-    // Common bundling options to avoid Docker dependency
+    // Common bundling options for Lambda functions
     const bundling: BundlingOptions = {
       forceDockerBundling: false,
-      externalModules: ['aws-sdk', '@aws-sdk/*'],
+      externalModules: ['aws-sdk', '@aws-sdk/*', '@gsos/types', '@gsos/types/*'],
       minify: true,
       sourceMap: false,
       target: 'node20',
@@ -188,8 +188,16 @@ export class ApiStack extends Stack {
 
     this.httpApi = new HttpApi(this, 'GSOSHttpApi', {
       corsPreflight: {
-        allowOrigins: ['*'],
-        allowMethods: [CorsHttpMethod.GET, CorsHttpMethod.POST, CorsHttpMethod.PUT, CorsHttpMethod.DELETE]
+        allowOrigins: [
+          'https://*.vercel.app',
+          'https://gsos-web.vercel.app',
+          'https://gsos-admin.vercel.app',
+          'http://localhost:3000',
+          'http://localhost:3002'
+        ],
+        allowMethods: [CorsHttpMethod.GET, CorsHttpMethod.POST, CorsHttpMethod.PUT, CorsHttpMethod.PATCH, CorsHttpMethod.DELETE],
+        allowHeaders: ['Content-Type', 'Authorization', 'x-user-role', 'x-student-id', 'x-school-id'],
+        allowCredentials: true
       }
     });
 
@@ -412,6 +420,13 @@ export class ApiStack extends Stack {
       path: '/payments/stripe/webhook',
       methods: [HttpMethod.POST],
       integration: new HttpLambdaIntegration('StripeWebhookIntegration', paymentsFn)
+    });
+
+    // Stack outputs
+    new CfnOutput(this, 'ApiUrl', {
+      value: this.httpApi.apiEndpoint,
+      description: 'GSOS API Gateway URL',
+      exportName: 'GSOS-ApiUrl'
     });
   }
 }

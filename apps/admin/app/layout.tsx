@@ -1,4 +1,5 @@
 import './globals.css';
+import './globals-accessibility.css';
 
 export const metadata = { 
   title: 'GSOS Admin - School Management Console',
@@ -9,16 +10,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className="bg-white text-black antialiased">
+        <a href="#main-content" className="skip-link">
+          Skip to main content
+        </a>
         <div className="min-h-screen">
-          <header className="border-b bg-white">
+          <header className="border-b bg-white" role="banner">
             <div className="mx-auto max-w-4xl px-4 py-4 sm:px-6 lg:px-8">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-3">
-                  <div className="h-6 w-6 rounded-lg bg-black" aria-hidden />
+                  <div className="h-6 w-6 rounded-lg bg-black" aria-hidden="true" />
                   <span className="text-sm font-medium tracking-wide">GSOS Admin</span>
                 </div>
                 <div className="text-sm text-gray-600">
-                  Welcome back, Admin
+                  School Management Console
                 </div>
               </div>
               <nav className="mt-4">
@@ -36,7 +40,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     Admissions
                   </a>
                   <a href="/invoices" className="text-sm font-medium text-gray-900 hover:text-gray-700">
-                    Finance
+                    Invoices
+                  </a>
+                  <a href="/payments" className="text-sm font-medium text-gray-900 hover:text-gray-700">
+                    Payments
                   </a>
                   <a href="/finance-dashboard" className="text-sm font-medium text-gray-900 hover:text-gray-700">
                     Finance Dashboard
@@ -45,7 +52,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </nav>
             </div>
           </header>
-          <main className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
+          <main id="main-content" className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8" role="main">
             {children}
           </main>
         </div>

@@ -284,26 +284,55 @@ export default function AttendancePage() {
         </div>
         
         <div className="overflow-x-auto">
-          <table className="min-w-full divide-y divide-gray-200">
-            <thead className="bg-gray-50">
-              <tr>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                  Student
-                </th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                  Status
-                </th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                  Notes
-                </th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                  Actions
-                </th>
-              </tr>
-            </thead>
-            <tbody className="bg-white divide-y divide-gray-200">
+          <table 
+              className="min-w-full divide-y divide-gray-200"
+              role="table"
+              aria-label="Student attendance data table"
+              aria-describedby="attendance-table-description"
+            >
+              <caption id="attendance-table-description" className="sr-only">
+                Table showing student attendance records with status, notes, and action buttons
+              </caption>
+              <thead className="bg-gray-50">
+                <tr role="row">
+                  <th 
+                    className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                    scope="col"
+                    role="columnheader"
+                  >
+                    Student
+                  </th>
+                  <th 
+                    className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                    scope="col"
+                    role="columnheader"
+                  >
+                    Status
+                  </th>
+                  <th 
+                    className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                    scope="col"
+                    role="columnheader"
+                  >
+                    Notes
+                  </th>
+                  <th 
+                    className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                    scope="col"
+                    role="columnheader"
+                  >
+                    Actions
+                  </th>
+                </tr>
+              </thead>
+            <tbody className="bg-white divide-y divide-gray-200" role="rowgroup">
               {students.map((student) => (
-                <tr key={student.id} className="hover:bg-gray-50">
+                <tr 
+                  key={student.id} 
+                  className="hover:bg-gray-50"
+                  role="row"
+                  aria-label={`Attendance record for ${student.firstName} ${student.lastName}`}
+                >
                   <td className="px-6 py-4 whitespace-nowrap">
                     <div className="flex items-center">
                       <div className="flex-shrink-0 h-10 w-10">

@@ -1,0 +1,1178 @@
+<testsuites id="" name="" tests="273" failures="0" skipped="273" errors="0" time="0.277193">
+<testsuite name="admissions.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="chromium" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="Admissions Workflow › Complete admissions workflow: submit form → admin accepts → student record exists" classname="admissions.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Admissions Workflow › Admin can reject application with reason" classname="admissions.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Admissions Workflow › Application form validation works correctly" classname="admissions.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="attendance.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="chromium" tests="6" failures="0" skipped="6" time="0" errors="0">
+<testcase name="Attendance Management › Complete attendance workflow: teacher marks class → student sees day status" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Teacher can mark attendance for multiple periods" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Attendance statistics and reports" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Bulk attendance marking" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Late arrival and early departure tracking" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Attendance notifications and alerts" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="auth.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="chromium" tests="9" failures="0" skipped="9" time="0" errors="0">
+<testcase name="Authentication and Authorization › Role gates prevent unauthorized access - Admin areas" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Role gates prevent unauthorized access - Student data" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Role gates prevent unauthorized access - Financial data" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Authentication flow and session management" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Invalid login attempts and security measures" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Password reset functionality" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Multi-factor authentication (if enabled)" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Role-based navigation menu visibility" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › API endpoint authorization" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="finance.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="chromium" tests="6" failures="0" skipped="6" time="0" errors="0">
+<testcase name="Finance Management › Complete finance workflow: create invoice → student pays in sandbox → webhook reconciles status" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Create and manage different types of invoices" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Payment plan and installment management" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Financial reporting and analytics" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Refund and credit management" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Payment reminder and notification system" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="smoke.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="chromium" tests="9" failures="0" skipped="9" time="0" errors="0">
+<testcase name="Smoke Tests - Critical User Journeys › Critical Path: Application submission to student enrollment" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Authentication and basic navigation smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Student management smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Attendance marking smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Finance workflow smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › System health and performance smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Data integrity smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Security smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Mobile responsiveness smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="students.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="chromium" tests="6" failures="0" skipped="6" time="0" errors="0">
+<testcase name="Students Management › Create new student with complete information" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Edit existing student information" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Link guardian to student" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Student list query and filtering works" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Student profile displays complete information" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Bulk operations on students" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="admissions.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="firefox" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="Admissions Workflow › Complete admissions workflow: submit form → admin accepts → student record exists" classname="admissions.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Admissions Workflow › Admin can reject application with reason" classname="admissions.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Admissions Workflow › Application form validation works correctly" classname="admissions.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="attendance.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="firefox" tests="6" failures="0" skipped="6" time="0" errors="0">
+<testcase name="Attendance Management › Complete attendance workflow: teacher marks class → student sees day status" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Teacher can mark attendance for multiple periods" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Attendance statistics and reports" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Bulk attendance marking" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Late arrival and early departure tracking" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Attendance notifications and alerts" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="auth.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="firefox" tests="9" failures="0" skipped="9" time="0" errors="0">
+<testcase name="Authentication and Authorization › Role gates prevent unauthorized access - Admin areas" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Role gates prevent unauthorized access - Student data" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Role gates prevent unauthorized access - Financial data" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Authentication flow and session management" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Invalid login attempts and security measures" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Password reset functionality" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Multi-factor authentication (if enabled)" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Role-based navigation menu visibility" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › API endpoint authorization" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="finance.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="firefox" tests="6" failures="0" skipped="6" time="0" errors="0">
+<testcase name="Finance Management › Complete finance workflow: create invoice → student pays in sandbox → webhook reconciles status" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Create and manage different types of invoices" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Payment plan and installment management" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Financial reporting and analytics" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Refund and credit management" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Payment reminder and notification system" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="smoke.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="firefox" tests="9" failures="0" skipped="9" time="0" errors="0">
+<testcase name="Smoke Tests - Critical User Journeys › Critical Path: Application submission to student enrollment" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Authentication and basic navigation smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Student management smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Attendance marking smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Finance workflow smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › System health and performance smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Data integrity smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Security smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Mobile responsiveness smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="students.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="firefox" tests="6" failures="0" skipped="6" time="0" errors="0">
+<testcase name="Students Management › Create new student with complete information" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Edit existing student information" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Link guardian to student" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Student list query and filtering works" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Student profile displays complete information" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Bulk operations on students" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="admissions.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="webkit" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="Admissions Workflow › Complete admissions workflow: submit form → admin accepts → student record exists" classname="admissions.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Admissions Workflow › Admin can reject application with reason" classname="admissions.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Admissions Workflow › Application form validation works correctly" classname="admissions.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="attendance.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="webkit" tests="6" failures="0" skipped="6" time="0" errors="0">
+<testcase name="Attendance Management › Complete attendance workflow: teacher marks class → student sees day status" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Teacher can mark attendance for multiple periods" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Attendance statistics and reports" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Bulk attendance marking" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Late arrival and early departure tracking" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Attendance notifications and alerts" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="auth.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="webkit" tests="9" failures="0" skipped="9" time="0" errors="0">
+<testcase name="Authentication and Authorization › Role gates prevent unauthorized access - Admin areas" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Role gates prevent unauthorized access - Student data" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Role gates prevent unauthorized access - Financial data" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Authentication flow and session management" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Invalid login attempts and security measures" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Password reset functionality" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Multi-factor authentication (if enabled)" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Role-based navigation menu visibility" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › API endpoint authorization" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="finance.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="webkit" tests="6" failures="0" skipped="6" time="0" errors="0">
+<testcase name="Finance Management › Complete finance workflow: create invoice → student pays in sandbox → webhook reconciles status" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Create and manage different types of invoices" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Payment plan and installment management" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Financial reporting and analytics" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Refund and credit management" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Payment reminder and notification system" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="smoke.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="webkit" tests="9" failures="0" skipped="9" time="0" errors="0">
+<testcase name="Smoke Tests - Critical User Journeys › Critical Path: Application submission to student enrollment" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Authentication and basic navigation smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Student management smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Attendance marking smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Finance workflow smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › System health and performance smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Data integrity smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Security smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Mobile responsiveness smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="students.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="webkit" tests="6" failures="0" skipped="6" time="0" errors="0">
+<testcase name="Students Management › Create new student with complete information" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Edit existing student information" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Link guardian to student" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Student list query and filtering works" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Student profile displays complete information" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Bulk operations on students" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="admissions.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="Mobile Chrome" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="Admissions Workflow › Complete admissions workflow: submit form → admin accepts → student record exists" classname="admissions.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Admissions Workflow › Admin can reject application with reason" classname="admissions.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Admissions Workflow › Application form validation works correctly" classname="admissions.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="attendance.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="Mobile Chrome" tests="6" failures="0" skipped="6" time="0" errors="0">
+<testcase name="Attendance Management › Complete attendance workflow: teacher marks class → student sees day status" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Teacher can mark attendance for multiple periods" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Attendance statistics and reports" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Bulk attendance marking" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Late arrival and early departure tracking" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Attendance notifications and alerts" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="auth.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="Mobile Chrome" tests="9" failures="0" skipped="9" time="0" errors="0">
+<testcase name="Authentication and Authorization › Role gates prevent unauthorized access - Admin areas" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Role gates prevent unauthorized access - Student data" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Role gates prevent unauthorized access - Financial data" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Authentication flow and session management" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Invalid login attempts and security measures" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Password reset functionality" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Multi-factor authentication (if enabled)" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Role-based navigation menu visibility" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › API endpoint authorization" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="finance.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="Mobile Chrome" tests="6" failures="0" skipped="6" time="0" errors="0">
+<testcase name="Finance Management › Complete finance workflow: create invoice → student pays in sandbox → webhook reconciles status" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Create and manage different types of invoices" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Payment plan and installment management" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Financial reporting and analytics" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Refund and credit management" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Payment reminder and notification system" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="smoke.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="Mobile Chrome" tests="9" failures="0" skipped="9" time="0" errors="0">
+<testcase name="Smoke Tests - Critical User Journeys › Critical Path: Application submission to student enrollment" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Authentication and basic navigation smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Student management smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Attendance marking smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Finance workflow smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › System health and performance smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Data integrity smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Security smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Mobile responsiveness smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="students.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="Mobile Chrome" tests="6" failures="0" skipped="6" time="0" errors="0">
+<testcase name="Students Management › Create new student with complete information" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Edit existing student information" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Link guardian to student" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Student list query and filtering works" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Student profile displays complete information" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Bulk operations on students" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="admissions.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="Mobile Safari" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="Admissions Workflow › Complete admissions workflow: submit form → admin accepts → student record exists" classname="admissions.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Admissions Workflow › Admin can reject application with reason" classname="admissions.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Admissions Workflow › Application form validation works correctly" classname="admissions.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="attendance.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="Mobile Safari" tests="6" failures="0" skipped="6" time="0" errors="0">
+<testcase name="Attendance Management › Complete attendance workflow: teacher marks class → student sees day status" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Teacher can mark attendance for multiple periods" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Attendance statistics and reports" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Bulk attendance marking" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Late arrival and early departure tracking" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Attendance notifications and alerts" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="auth.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="Mobile Safari" tests="9" failures="0" skipped="9" time="0" errors="0">
+<testcase name="Authentication and Authorization › Role gates prevent unauthorized access - Admin areas" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Role gates prevent unauthorized access - Student data" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Role gates prevent unauthorized access - Financial data" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Authentication flow and session management" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Invalid login attempts and security measures" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Password reset functionality" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Multi-factor authentication (if enabled)" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Role-based navigation menu visibility" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › API endpoint authorization" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="finance.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="Mobile Safari" tests="6" failures="0" skipped="6" time="0" errors="0">
+<testcase name="Finance Management › Complete finance workflow: create invoice → student pays in sandbox → webhook reconciles status" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Create and manage different types of invoices" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Payment plan and installment management" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Financial reporting and analytics" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Refund and credit management" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Payment reminder and notification system" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="smoke.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="Mobile Safari" tests="9" failures="0" skipped="9" time="0" errors="0">
+<testcase name="Smoke Tests - Critical User Journeys › Critical Path: Application submission to student enrollment" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Authentication and basic navigation smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Student management smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Attendance marking smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Finance workflow smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › System health and performance smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Data integrity smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Security smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Mobile responsiveness smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="students.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="Mobile Safari" tests="6" failures="0" skipped="6" time="0" errors="0">
+<testcase name="Students Management › Create new student with complete information" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Edit existing student information" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Link guardian to student" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Student list query and filtering works" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Student profile displays complete information" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Bulk operations on students" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="admissions.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="Microsoft Edge" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="Admissions Workflow › Complete admissions workflow: submit form → admin accepts → student record exists" classname="admissions.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Admissions Workflow › Admin can reject application with reason" classname="admissions.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Admissions Workflow › Application form validation works correctly" classname="admissions.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="attendance.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="Microsoft Edge" tests="6" failures="0" skipped="6" time="0" errors="0">
+<testcase name="Attendance Management › Complete attendance workflow: teacher marks class → student sees day status" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Teacher can mark attendance for multiple periods" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Attendance statistics and reports" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Bulk attendance marking" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Late arrival and early departure tracking" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Attendance notifications and alerts" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="auth.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="Microsoft Edge" tests="9" failures="0" skipped="9" time="0" errors="0">
+<testcase name="Authentication and Authorization › Role gates prevent unauthorized access - Admin areas" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Role gates prevent unauthorized access - Student data" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Role gates prevent unauthorized access - Financial data" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Authentication flow and session management" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Invalid login attempts and security measures" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Password reset functionality" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Multi-factor authentication (if enabled)" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Role-based navigation menu visibility" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › API endpoint authorization" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="finance.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="Microsoft Edge" tests="6" failures="0" skipped="6" time="0" errors="0">
+<testcase name="Finance Management › Complete finance workflow: create invoice → student pays in sandbox → webhook reconciles status" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Create and manage different types of invoices" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Payment plan and installment management" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Financial reporting and analytics" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Refund and credit management" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Payment reminder and notification system" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="smoke.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="Microsoft Edge" tests="9" failures="0" skipped="9" time="0" errors="0">
+<testcase name="Smoke Tests - Critical User Journeys › Critical Path: Application submission to student enrollment" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Authentication and basic navigation smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Student management smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Attendance marking smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Finance workflow smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › System health and performance smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Data integrity smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Security smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Mobile responsiveness smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="students.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="Microsoft Edge" tests="6" failures="0" skipped="6" time="0" errors="0">
+<testcase name="Students Management › Create new student with complete information" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Edit existing student information" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Link guardian to student" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Student list query and filtering works" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Student profile displays complete information" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Bulk operations on students" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="admissions.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="Google Chrome" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="Admissions Workflow › Complete admissions workflow: submit form → admin accepts → student record exists" classname="admissions.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Admissions Workflow › Admin can reject application with reason" classname="admissions.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Admissions Workflow › Application form validation works correctly" classname="admissions.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="attendance.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="Google Chrome" tests="6" failures="0" skipped="6" time="0" errors="0">
+<testcase name="Attendance Management › Complete attendance workflow: teacher marks class → student sees day status" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Teacher can mark attendance for multiple periods" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Attendance statistics and reports" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Bulk attendance marking" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Late arrival and early departure tracking" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Attendance Management › Attendance notifications and alerts" classname="attendance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="auth.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="Google Chrome" tests="9" failures="0" skipped="9" time="0" errors="0">
+<testcase name="Authentication and Authorization › Role gates prevent unauthorized access - Admin areas" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Role gates prevent unauthorized access - Student data" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Role gates prevent unauthorized access - Financial data" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Authentication flow and session management" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Invalid login attempts and security measures" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Password reset functionality" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Multi-factor authentication (if enabled)" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › Role-based navigation menu visibility" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication and Authorization › API endpoint authorization" classname="auth.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="finance.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="Google Chrome" tests="6" failures="0" skipped="6" time="0" errors="0">
+<testcase name="Finance Management › Complete finance workflow: create invoice → student pays in sandbox → webhook reconciles status" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Create and manage different types of invoices" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Payment plan and installment management" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Financial reporting and analytics" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Refund and credit management" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Finance Management › Payment reminder and notification system" classname="finance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="smoke.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="Google Chrome" tests="9" failures="0" skipped="9" time="0" errors="0">
+<testcase name="Smoke Tests - Critical User Journeys › Critical Path: Application submission to student enrollment" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Authentication and basic navigation smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Student management smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Attendance marking smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Finance workflow smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › System health and performance smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Data integrity smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Security smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Smoke Tests - Critical User Journeys › Mobile responsiveness smoke test" classname="smoke.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="students.spec.ts" timestamp="2025-09-24T10:23:09.549Z" hostname="Google Chrome" tests="6" failures="0" skipped="6" time="0" errors="0">
+<testcase name="Students Management › Create new student with complete information" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Edit existing student information" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Link guardian to student" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Student list query and filtering works" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Student profile displays complete information" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Students Management › Bulk operations on students" classname="students.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+</testsuites>
