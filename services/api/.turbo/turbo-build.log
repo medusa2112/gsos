@@ -3,3 +3,25 @@
 > @gsos/api@ build /Users/dominicnel/gsos/services/api
 > tsc -p tsconfig.json
 
+[96m../../packages/types/src/auth.ts[0m:[93m58[0m:[93m13[0m - [91merror[0m[90m TS2503: [0mCannot find namespace 'React'.
+
+[7m58[0m   children: React.ReactNode;
+[7m  [0m [91m            ~~~~~[0m
+
+[96m../../packages/types/src/auth.ts[0m:[93m60[0m:[93m14[0m - [91merror[0m[90m TS2503: [0mCannot find namespace 'React'.
+
+[7m60[0m   fallback?: React.ReactNode;
+[7m  [0m [91m             ~~~~~[0m
+
+[96msrc/handlers/students.ts[0m:[93m11[0m:[93m8[0m - [91merror[0m[90m TS2307: [0mCannot find module '@gsos/types' or its corresponding type declarations.
+
+[7m11[0m } from '@gsos/types';
+[7m  [0m [91m       ~~~~~~~~~~~~~[0m
+
+
+Found 3 errors in 2 files.
+
+Errors  Files
+     2  ../../packages/types/src/auth.ts[90m:58[0m
+     1  src/handlers/students.ts[90m:11[0m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 2.[39m

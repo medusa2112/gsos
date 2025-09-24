@@ -1,5 +1,6 @@
 'use client';
 import React, { useMemo, useState } from 'react';
+import { Button } from '@gsos/ui';
 
 const SERVICES = [
   { id: 'web', label: 'Website & Portal' },
@@ -63,10 +64,10 @@ function ConsentModal({ open, onClose, onAccept }: { open: boolean; onClose: () 
           Tick to allow us to share only your explicitly <span className="font-medium">approved</span> posts on our social channels.
         </p>
         <div className="flex items-center justify-end gap-2">
-          <button onClick={onClose} className="rounded-2xl border px-4 py-2 text-sm hover:bg-gray-50">Not now</button>
-          <button onClick={() => { onAccept(); onClose(); }} className="rounded-2xl bg-black px-4 py-2 text-sm text-white">
+          <Button onClick={onClose} variant="outline">Not now</Button>
+          <Button onClick={() => { onAccept(); onClose(); }} variant="primary">
             I agree
-          </button>
+          </Button>
         </div>
       </div>
     </div>
@@ -89,7 +90,7 @@ export default function Home() {
           </div>
           <div className="flex gap-2">
             {['Continue with Google','Continue with LinkedIn','Continue with Facebook'].map((t)=> (
-              <button key={t} className="rounded-2xl border px-3 py-1 text-sm hover:bg-gray-50">{t}</button>
+              <Button key={t} variant="outline" size="sm">{t}</Button>
             ))}
           </div>
         </div>
