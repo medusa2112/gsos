@@ -24,9 +24,6 @@ const nextConfig = {
   
   // Bundle optimization
   webpack: (config, { dev, isServer }) => {
-    // Enable tree shaking
-    config.optimization.usedExports = true;
-    
     // Split chunks for better caching
     if (!dev && !isServer) {
       config.optimization.splitChunks = {
